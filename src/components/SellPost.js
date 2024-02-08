@@ -1,6 +1,15 @@
 import React from 'react';
 
 export const SellPost = ({ userID,userProfileURL, datePost,title, description, price, size, gender, quantity, picUrl, category }) => {
+  
+  const handleBuyButton= () => {
+    //Update Cart
+    //Redirect to Cart
+    //Authentication: If the user is not logged in, they may need to authenticate before adding items to the cart
+    //Validation: check if the item is still in stock.
+    //Create new Order.
+  }
+  
   return (
     <div className="card mb-3">
       
