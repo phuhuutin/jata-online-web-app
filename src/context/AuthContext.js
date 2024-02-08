@@ -13,7 +13,8 @@ export const AuthProvider = ({ children }) => {
   const login = (userData) => {
     // setIsLoggedIn(true);
     // setUser(userData);
-
+    //WorkFlow: get userData from database via user input username 
+    //and then compare user-input password vs data password.
     //testing
     if(userData.username === 'phuhuutin' && userData.password === '123456'){
         setIsLoggedIn(true);
