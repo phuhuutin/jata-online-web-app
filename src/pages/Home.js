@@ -15,7 +15,7 @@ export const Home = () => {
   const filteredSellPosts = activeCategory === 'All' ? sellPostList : sellPostList.filter(post => post.category === activeCategory);
 
   const categories = ['All', ...new Set(sellPosts.map(post => post.category))];
-
+  
 
   return (
 
