@@ -10,7 +10,7 @@ export const Home = () => {
   const [activeCategory, setActiveCategory] = useState('All'); // Default active category
 
 
-
+  
 
   //Effect for Sell Post
   useEffect(()=>{
