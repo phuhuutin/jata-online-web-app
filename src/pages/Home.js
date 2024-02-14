@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import logoImage from '../images/jata_black.png'; // Adjust the path to your logo image
 import { sellPosts } from '../hardCodeData/sellPostData';
-import { SellPost } from './SellPost';
+import { SellPost } from '../components/SellPost';
 
 export const Home = () => {
   const [sellPostList, setSellPostList] = useState([]);
