@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
     //WorkFlow: get userData from database via user input username 
     //and then compare user-input password vs data password.
     //testing
-    if(userData.username === 'phuhuutin' && userData.password === '123456'){
+    if(userData.username === 'angelvu' && userData.password === '123456'){
         setIsLoggedIn(true);
         setUser(userData);
         console.log("Logined");

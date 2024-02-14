@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import logoImage from '../images/jata_black.png'; // Adjust the path to your logo image
 import { sellPosts } from '../hardCodeData/sellPostData';
-import { SellPost } from '../components/SellPost';
+import { SellPost } from './SellPost';
 
 export const Home = () => {
   const [sellPostList, setSellPostList] = useState([]);
@@ -34,7 +34,7 @@ export const Home = () => {
           ))}
         </ul>
       </nav>
-      <h1>this is HOME</h1>
+      <h1>Explore</h1>
       {filteredSellPosts.map((sellPost, index) => (
         <SellPost
           key={index}
