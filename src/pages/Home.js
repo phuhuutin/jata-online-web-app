@@ -9,6 +9,10 @@ export const Home = () => {
   const [sellPostList, setSellPostList] = useState([]);
   const [activeCategory, setActiveCategory] = useState('All'); // Default active category
 
+
+  
+
+  //Effect for Sell Post
   useEffect(()=>{
     setSellPostList(sellPosts);
   },[])
