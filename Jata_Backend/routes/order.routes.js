@@ -6,12 +6,9 @@ module.exports = app => {
     // Create a new Order
     //Body
     //{
-    // "seller_id": 1,
     // "buyer_id": 3,
-    // "sellpost_id": 1,
-    // "quantity": 2,
+    // "itemsList": [{"sellpost_id": 1,"quantity": 2}, {"sellpost_id": 1,"quantity": 2} ]
     // "total_price": "31.98",
-    // "order_shipping_state": "Shipped",
     // "shipping_address": {
     //     "street_address": "123 Tacoma Tacoma TTacomaacoma St",
     //     "city": "Tacoma",
